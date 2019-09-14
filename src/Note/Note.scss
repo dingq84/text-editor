@@ -1,0 +1,17 @@
+.note {
+  flex-basis: 0;
+  flex-grow: 5.3;
+  padding-top: 54px;
+
+  &__icons {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+
+    & img {
+      cursor: pointer;
+    }
+  }
+}
